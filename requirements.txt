@@ -1,0 +1,19 @@
+# 门店大调拨方案生成工具 —— 依赖清单
+# 生成环境：Python 3.11 + 本仓库 venv（pip freeze 提取）
+# 安装：venv\Scripts\activate && pip install -r requirements.txt
+#
+# 说明：
+# - ddddocr 依赖 onnxruntime / pillow / numpy，已一并列出。
+# - openpyxl 为 pandas 读写 .xlsx 所必需。
+# - xlrd 为可选：仅当业务需要读取旧版 .xls 时才安装（pandas 读 xls 用）。
+
+requests==2.34.2
+pandas==3.0.3
+numpy==2.4.6
+ddddocr==1.6.1
+onnxruntime==1.26.0
+pillow==12.2.0
+openpyxl==3.1.5
+customtkinter==5.2.2
+python-dotenv==1.0.1
+# xlrd==2.0.1   # 可选：读取 .xls 时取消注释
