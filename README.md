@@ -52,9 +52,9 @@
 
 ```ini
 # ZQ 系统地址
-ZQ_BASE_URL=https://xmzqdyf.incayun.com
+ZQ_BASE_URL=xxxx.com
 # HH 系统地址
-HH_BASE_URL=https://fjhhyy.incayun.com
+HH_BASE_URL=yyyy.com
 ```
 
 其余运行参数（账号、密码、起止日期、各种文件路径）在 GUI 中填写，或参考 `main.py` 的 `main()` 入参。
